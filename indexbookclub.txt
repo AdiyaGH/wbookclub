@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Club</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #FDF6F9;
+            color: #3D3D3D;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #E3B5C1;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #D98C9C;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .calendar, .suggestion-box {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about-photo {
+            text-align: center;
+        }
+        .about-photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #E3B5C1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to Our Book Club
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#reads">Current & Past Reads</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#suggest">Suggest a Book</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Our Club</h2>
+        <p>Welcome all! We are delighted to welcome you to this official website for our book club. Layla and I are both in the purple class at Wellesley College. We share a passion for knowledge and reflection. We also share a love of literature and fondness for many of the same thought leaders in our history. We hope to facilitate critical conversations on the political state of the world, our responsibility to ourselves, each other, and our ancestors. We hope that you are encouraged to participate and collaborate as we are sincerely eager to learn from all of you.</p>
+        <div class="about-photo">
+            <img src="your-photo-url.jpg" alt="Book Club Founders">
+        </div>
+    </section>
+    <section id="reads">
+        <h2>Current & Past Reads</h2>
+        <ul>
+            <li><strong>Current Read:</strong> TBD</li>
+            <li>Past Read: "Their Eyes Were Watching God" by Zora Neale Hurston</li>
+            <li>Past Read: "The Fire Next Time" by James Baldwin</li>
+        </ul>
+    </section>
+    <section class="calendar" id="calendar">
+        <h2>Upcoming Meetings</h2>
+        <p><em>Calendar will be embedded here.</em></p>
+    </section>
+    <section class="suggestion-box" id="suggest">
+        <h2>Suggest a Book</h2>
+        <form>
+            <label for="book">Book Title:</label><br>
+            <input type="text" id="book" name="book"><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="reason">Why do you recommend it?</label><br>
+            <textarea id="reason" name="reason"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact & Social Media</h2>
+        <p>Follow us on Instagram, Twitter, and Facebook.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Book Club | Designed with love for literature.</p>
+    </footer>
+</body>
+</html>
